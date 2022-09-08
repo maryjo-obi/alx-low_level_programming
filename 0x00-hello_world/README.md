@@ -6,3 +6,4 @@ using the function puts
 using printf
 using printf function
 script that generates the assembly code
+program that prints exactly and that piece of art is useful
