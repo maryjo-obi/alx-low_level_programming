@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -14,7 +13,7 @@ int main(void)
 	{
 		putchar((num % 10) + '0');
 		if (num == 9)
-		continue;
+			continue;
 		
 		putchar(',');
 		putchar(' ');
