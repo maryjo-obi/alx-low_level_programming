@@ -4,7 +4,6 @@
 
 /**
  * main - print if number is positive, negative or zero
- *
  * Description: using the main function 
  * this program prints "Programming is positive, negative, or zero
  *
