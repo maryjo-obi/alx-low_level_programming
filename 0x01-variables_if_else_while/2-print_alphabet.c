@@ -1,22 +1,20 @@
+
 #include <stdio.h>
 
 /**
- * main - print the alphabeth in lowercase
+ * main - Prints the alphabet in lowercase.
  *
- * Return: 0
+ * Return:  0.
  */
- 
 int main(void)
 {
-    char ch;
-    for (ch = 'a' ; ch <= 'z' ; ch++)
- 
-    {
-	putchar(ch);
-    }
+	char letter;
 
-    putchar('\n');
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-    return (0);
+	putchar('\n');
+
+	return (0);
 }
 
