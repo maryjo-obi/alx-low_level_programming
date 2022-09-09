@@ -8,3 +8,6 @@ Numberz
 program that prints the lowercase alphabet in reverse, followed by a new line
 program that prints all the numbers of base 16 in lowercase, followed by a new line
 program that prints all possible combinations of single-digit numbers
+program that prints all possible different combinations of two digits
+program that prints all possible different combinations of three digits
+program that prints all possible combinations of two two-digit numbers
