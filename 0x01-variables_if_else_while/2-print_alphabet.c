@@ -6,14 +6,18 @@
  * Return: 0
  *
  */
+ 
 int main(void)
 {
-	char letter;
+    char ch;
+    for (ch = 'a' ; ch <= 'z' ; ch++)
+ 
+    {
+	putchar(ch);
+    }
 
-	for (letter = 'a'; letter <= 'z';letter++)             putchar(letter);
+    putchar('\n');
 
-	putchar('\');
-
-	return (0);
+    return (0);
 }
 
