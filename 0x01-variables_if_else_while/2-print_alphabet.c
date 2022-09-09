@@ -4,7 +4,6 @@
  * main - print the alphabeth in lowercase
  *
  * Return: 0
- *
  */
  
 int main(void)
