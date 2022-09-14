@@ -1,27 +1,42 @@
-include "main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
- * print_sign - Write a function that prints the sign of a number.
+ * print_to_98 - Write a function that prints all natural numbers from
+ * n to 98, followed by a new line.
  *
- * @n: The interger.
+ * @n: Random interger.
  *
- * Return: Code returns 1 if positive, 0 if neutral and -1 if negative.
+ * Return: Always 0.
  */
-int print_sign(int n)
+void print_to_98(int n)
 {
-	if (n > 0)
-	{
-		_putchar('+');
-		return (1);
-	} else if (n == 0)
-	{
-		_putchar(48);
-		return (0);
-	} else if (n < 0)
-	{
-		_putchar('-');
-	}
-	return (-1);
-}
-Footer
+	int i, a;
 
+	if (n <= 98)
+	{
+	for (i = n; i <= 98; i++)
+	{
+		if (i != 98)
+		{
+			printf("%d, ", i);
+		} else if (i == 98)
+		{
+			printf("%d\n", i);
+		}
+	}
+	}
+	else if (n >= 98)
+	{
+	for (a = n; a >= 98; a--)
+	{
+		if (a != 98)
+		{
+			printf("%d, ", a);
+		} else if (a == 98)
+		{
+			printf("%d\n", a);
+		}
+	}
+	}
+}
