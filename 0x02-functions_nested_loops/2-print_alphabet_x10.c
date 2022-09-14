@@ -1,9 +1,8 @@
 #include "main.h"
 
  /**
-  * print_alphabet_x10 - main entry point.
-  *
-  * Description: prints x10 the alphabe in lowercase.
+  * print_alphabet_x10: Writes a function that prints x10 the alphabet.
+  *  in lowercase,followed by a new line.
   */
 void print_alphabet_x10(void)
 {
