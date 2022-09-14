@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 
 /**
  * print_sign - Write a function that prints the sign of a number.
@@ -23,3 +23,5 @@ int print_sign(int n)
 	}
 	return (-1);
 }
+Footer
+
