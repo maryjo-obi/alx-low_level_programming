@@ -11,6 +11,11 @@ void print_alphabet_x10(void)
 
 	while (ch <= 10)
 	{
+<<<<<<< HEAD
+		for (letter = 'a'; letter <= 'z'; letter++)
+			_putchar(letter);
+		_putchar('\n');
+=======
 		char i = 'a';
 
 		while (i <= 'z')
@@ -20,5 +25,6 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 		ch++;
+>>>>>>> 199ca760c5ac3e99fa01828a349406a13cc3eece
 	}
 }
