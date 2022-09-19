@@ -2,7 +2,6 @@
 
 /**
  * _puts - prints a string to stdout.
- * 
  * @str: The string to be printed.
  */
 
