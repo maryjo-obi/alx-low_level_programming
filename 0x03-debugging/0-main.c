@@ -5,12 +5,14 @@
 * Return: 0
 */
 
-int main(void)
+void positive_or_negative(int i);
 {
         int i;
 
+	{
         i = 98;
-        positive_or_negative(i);
+        int main(void);
+	}
 
         return (0);
 }
