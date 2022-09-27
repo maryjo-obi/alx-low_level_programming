@@ -8,7 +8,7 @@
 * @c: character to locate from input array
 *
 * Return: first occurence of charatcer or null if not found
-*/ 
+*/
 
 char *_strchr(char *s, char c)
 {
@@ -21,9 +21,7 @@ char *_strchr(char *s, char c)
 
 /**
 * if c is '\0', you should return
-*
 * the pointer to the '\0' of the
-*
 * string s
 */
 
