@@ -7,7 +7,7 @@
  *
  * @needle: The substring to be located.
  *
- * Return: If the substring is located - a pointer to the beginning of the located substring.
+ * Return: A pointer to the beginning of the located substring.
  *
  * If the substring is not located - NULL.
  */
